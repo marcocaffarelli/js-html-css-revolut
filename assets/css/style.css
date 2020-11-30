@@ -63,7 +63,12 @@ a{
     line-height:25px;
 }
 
-.menu_titolo1:hover, .menu_titolo2:hover, .menu_titolo3:hover, .menu_titolo4:hover, .menu_titolo5:hover, .menu_titolo6:hover{
+nav > ul > li:hover > .menu_titolo{
     color: black;
     font-weight: bold;
 }
+
+.tendina > li > a:hover{
+    color: black;
+}
+
