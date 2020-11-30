@@ -4,11 +4,11 @@ $(function (){
 
     menu.mouseenter(function () { 
         //console.log("cliccato");
-        $(this).show();
+        $('.menu_tendina').show();
     });
 
     menu.mouseleave(function (){
-        $(this).hide();
+        $('.menu_tendina').hide();
     });
 });
 
