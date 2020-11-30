@@ -72,3 +72,9 @@ nav > ul > li:hover > .menu_titolo{
     color: black;
 }
 
+.titolo_elementi_menu{
+    font-weight:bold;
+}
+.tendina > li > .titolo_elementi_menu:hover{
+    color: lightgrey;
+}
