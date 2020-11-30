@@ -5,6 +5,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container_esterno{
+    width: 1440px;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -36,7 +39,7 @@ ul{
 a{
     text-decoration: none;
     color: lightgrey;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 .c_black{
@@ -48,10 +51,19 @@ a{
     border-radius: 15px;
     padding: 3px 10px;
 }
-.menu_tendina{
+.bakcground_purple:hover{
+    background-color: rgb(221, 59, 173, 0.5);
+}
+.menu{
     display: none;
+    position: absolute; 
     border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 5px;
     box-shadow: 0 5px 5px lightgrey;
-    position: absolute; 
+    line-height:25px;
+}
+
+.menu_titolo1:hover, .menu_titolo2:hover, .menu_titolo3:hover, .menu_titolo4:hover, .menu_titolo5:hover, .menu_titolo6:hover{
+    color: black;
+    font-weight: bold;
 }
